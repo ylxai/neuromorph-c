@@ -15,7 +15,7 @@ directly applicable to Monero/RandomX and other CPU-mineable coins.
 A byte-identical C port of the NeuroMorph v1 PoW VM (Go → C):
 - 514 lines, standalone, zero external dependencies beyond OpenSSL
 - Verified against the Go consensus reference via TestCrossPlatformHash
-- https://github.com/ylxai/cereblix/tree/feature/neuromorph-c
+- https://github.com/ylxai/neuromorph-c
 
 ### 2. AES-NI Performance Optimization (complete)
 Replaced OpenSSL EVP with direct AES-NI intrinsics:
@@ -56,7 +56,7 @@ I'm an independent developer with deep experience in:
 - Cross-language porting with verified byte-identical outputs
 
 The complete source code is available at:
-https://github.com/ylxai/cereblix/tree/feature/neuromorph-c
+https://github.com/ylxai/neuromorph-c
 
 Happy to discuss further or provide additional materials.
 
